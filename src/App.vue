@@ -1,14 +1,20 @@
 <template>
   <div id="app">
+    <img alt="Vue logo" src="./assets/logo.png">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Step 1</router-link> |
+      <router-link to="/2">Step 2</router-link> |
+      <router-link to="/3">Step 3</router-link> |
+      <router-link to="/4">Step 4</router-link>
     </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
+@import '~bulma/bulma';
+@import '~bulma-extensions/bulma-slider/src/sass/index.sass';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

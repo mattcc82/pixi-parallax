@@ -3,6 +3,9 @@ module.exports = {
   env: {
     node: true
   },
+  'globals': {
+    'PIXI': true
+  },
   'extends': [
     'plugin:vue/essential',
     '@vue/standard'
